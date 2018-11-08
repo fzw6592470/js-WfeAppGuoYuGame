@@ -267,6 +267,11 @@ export default [
         icon: 'google',
         routes: [
           {
+            path: '/gamebox/tag',
+            name: 'tag',
+            component: './Gamebox/Tag',
+          },
+          {
             path: '/gamebox/game',
             name: 'game',
             component: './Gamebox/Game',

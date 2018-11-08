@@ -363,6 +363,12 @@ let routes = [
         "icon": "google",
         "routes": [
           {
+            "path": "/gamebox/tag",
+            "name": "tag",
+            "component": dynamic({ loader: () => import('../Gamebox/Tag'), loading: require('/opt/app/appservice/js-WfeAppGuoYuGame/src/components/PageLoading/index').default  }),
+            "exact": true
+          },
+          {
             "path": "/gamebox/game",
             "name": "game",
             "component": dynamic({ loader: () => import('../Gamebox/Game'), loading: require('/opt/app/appservice/js-WfeAppGuoYuGame/src/components/PageLoading/index').default  }),

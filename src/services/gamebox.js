@@ -121,6 +121,45 @@ export async function updateMedalList(params) {
 }
 
 
+export async function queryBoxTagList(params) {
+  return request(`/box/boxTagList?${stringify(params)}`);
+}
+
+
+export async function removeBoxTagList(params) {
+  const { count = 5, ...restParams } = params;
+  return request(`/box/boxTagList?count=${count}`, {
+    method: 'POST',
+    body: {
+      ...restParams,
+      method: 'delete',
+    },
+  });
+}
+
+
+export async function addBoxTagList(params) {
+  const { count = 5, ...restParams } = params;
+  return request(`/box/boxTagList?count=${count}`, {
+    method: 'POST',
+    body: {
+      ...restParams,
+      method: 'post',
+    },
+  });
+}
+
+export async function updateBoxTagList(params) {
+  const { count = 5, ...restParams } = params;
+  return request(`/box/boxTagList?count=${count}`, {
+    method: 'POST',
+    body: {
+      ...restParams,
+      method: 'update',
+    },
+  });
+}
+
 
 
 

@@ -185,6 +185,7 @@ export default {
   'app.setting.production.hint':
     'Setting panel show in development enviorment only, please mannually modify',
   'menu.gamebox': 'Game Box Manage',
+  'menu.gamebox.tag': 'Tag Manage',
   'menu.gamebox.game': 'Game Manage',
   'menu.gamebox.doll': 'Doll Manage',
   'menu.gamebox.medal': 'Medal Manage',

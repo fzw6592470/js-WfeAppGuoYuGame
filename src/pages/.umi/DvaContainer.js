@@ -18,6 +18,7 @@ app.model({ namespace: 'medal', ...(require('/opt/app/appservice/js-WfeAppGuoYuG
 app.model({ namespace: 'memberList', ...(require('/opt/app/appservice/js-WfeAppGuoYuGame/src/models/memberList.js').default) });
 app.model({ namespace: 'project', ...(require('/opt/app/appservice/js-WfeAppGuoYuGame/src/models/project.js').default) });
 app.model({ namespace: 'setting', ...(require('/opt/app/appservice/js-WfeAppGuoYuGame/src/models/setting.js').default) });
+app.model({ namespace: 'tag', ...(require('/opt/app/appservice/js-WfeAppGuoYuGame/src/models/tag.js').default) });
 app.model({ namespace: 'user', ...(require('/opt/app/appservice/js-WfeAppGuoYuGame/src/models/user.js').default) });
 app.model({ namespace: 'login', ...(require('/opt/app/appservice/js-WfeAppGuoYuGame/src/pages/User/models/login.js').default) });
 app.model({ namespace: 'register', ...(require('/opt/app/appservice/js-WfeAppGuoYuGame/src/pages/User/models/register.js').default) });

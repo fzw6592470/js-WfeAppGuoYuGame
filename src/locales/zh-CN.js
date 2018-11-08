@@ -183,6 +183,7 @@ export default {
   'menu.member': '会员管理',
   'menu.member.index': '会员信息',
   'menu.gamebox': '游戏盒子管理',
+  'menu.gamebox.tag': '标签管理',
   'menu.gamebox.game': '游戏管理',
   'menu.gamebox.doll': '玩偶管理',
   'menu.gamebox.medal': '勋章管理',
